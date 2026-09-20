@@ -546,6 +546,3 @@ Potential extensions include:
 
 ---
 
-## Disclaimer
-
-The generated content is AI-generated and should be reviewed and edited by the user before publishing.
