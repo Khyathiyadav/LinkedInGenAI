@@ -26,7 +26,7 @@ Streamlit UI
 ↓
 User Requirements
 ↓
-Sentence Transformer
+Sentence Transformer Embeddings
 ↓
 FAISS Vector Search
 ↓
@@ -38,7 +38,7 @@ Critic Agent
 ↓
 Final LinkedIn Post
 
-Optional:
+Optional Refinement:
 
 Critic Feedback
 ↓
@@ -57,20 +57,21 @@ Final Evaluation
 - FAISS
 - Pandas
 - NumPy
-- LangChain
-- LangGraph
 
 ## Dataset
 
-The project uses a LinkedIn post dataset containing post text and
-metadata such as engagement, language, tone, tags, and line count.
+This project uses the LinkedIn Post Generator Dataset from Kaggle,
+licensed under **CC BY-SA 4.0**.
 
-The dataset is used as a retrieval and reference corpus rather than
-for LLM fine-tuning.
+The dataset is used as a reference corpus for semantic retrieval
+in the RAG pipeline.
+
+**Dataset source:** [Add your original Kaggle dataset URL here]
 
 ## Running Locally
 
-### Install dependencies
+### 1. Clone the repository
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/Khyathiyadav/LinkedInGenAI.git
+cd LinkedInGenAI
