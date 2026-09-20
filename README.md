@@ -239,7 +239,7 @@ The dataset is licensed under **CC BY-SA 4.0**.
 ### Dataset Source
 
 **Kaggle:**  
-[PASTE THE ORIGINAL KAGGLE DATASET URL HERE]
+(https://www.kaggle.com/datasets/prishatank/post-generator-dataset)]
 
 The original dataset attribution and license should be preserved when redistributing the dataset.
 
